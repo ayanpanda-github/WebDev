@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.bg-img{
+    background-image: url(background\ img.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+main{
+    background-color: rgba(10, 97, 114, 0.405);
+    margin: 20vh auto;
+    min-width: 370px;
+    max-width: 700px; 
+    width: 70vw;   
+    z-index: 2px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}

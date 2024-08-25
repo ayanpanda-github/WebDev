@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <h1 id=title>Programers Servey</h1>
+    <p id="description"> This to inform u that what do we like about programming</p>
+    <main>
+
+
+    <form id="survey-form" >
+        <fieldset id="personal">
+            <lable id="name-label">Name:<input type="text" id="name" placeholder="Enter your name" required></lable>
+
+            <lable id="email-label">Email:<input type="email" id="email" placeholder="Enter your Email" required></lable>
+
+            <lable id="number-label">Name:<input type="Number" id="number" placeholder="Age" min="13" max="99"></lable>
+            
+            <lable>Which of the following describe you?
+                <select id="dropdown" placeholder="Enter your name">
+                    <option value="1">Python</option>
+                    <option value="2">Java</option>
+                    <option value="3">C/C++</option>
+                    <option value="4">Rust</option>
+                </select>
+            </lable>
+        </fieldset>
+        <fieldset>
+            
+            <label for="front-end">
+                <input type="radio" name="webDev" id="front-end" value="front-end">
+                Front-end
+            </label>
+            
+            
+            <label for="back-end">
+                <input type="radio" name="webDev" id="back-end" value="back-end">
+                Back-end
+            </label>
+            
+            
+            <label for="full-stack">
+                <input type="radio" name="webDev" id="full-stack" value="full-stack">
+                Full-stack
+            </label>
+            
+        </fieldset>
+        <fieldset>
+            <p>What do you want to build?<span>(Check all that apply)</span></p>
+            <label for="1"><input type="checkbox" value="1"> TOOl 1</label>
+            <label for="2"><input type="checkbox" value="1"> TOOl 2</label>
+            <label for="3"><input type="checkbox" value="1"> TOOl 3</label>
+            <label for="4"><input type="checkbox" value="1"> TOOl 4</label>
+
+        </fieldset>
+        <fieldset>
+            <label for="comments">Any comments or suggestions?</label><textarea id="comments" placeholder="Enter your comment here...">
+
+            </textarea></label>
+        </fieldset>
+        <button type="submit" id="submit">Submit</button>
+        
+        
+    </form>
+</main>
+</body>
+
+</html>
